@@ -28,6 +28,7 @@ while bottles>=0:
         bottles = bottles - 1
         print(str(bottles),first_verse_singular)
         print("-")
+        # I used elif to avoid too many nested IFs
     elif bottles == 1:
         print(str(bottles),first_verse_singular)
         print(str(bottles),also_first_verse_singular)
